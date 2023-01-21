@@ -6,7 +6,9 @@
 #include <iostream> //Input/Output stream, preprocessed information, including cout
 int main() //main function
 {
-	std::cout << "Hello World\n"; //output to the consol
+	int file_size;
+	double sales = 9.99;
+	std::cout << file_size;
 	return 0;
 }
 
