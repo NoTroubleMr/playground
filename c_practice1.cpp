@@ -6,6 +6,8 @@
 #include <iostream> //Input/Output stream, preprocessed information, including cout
 int main() //main function
 {
+	const double pi = 3.14;
+	pi = 0;
 	int file_size;
 	double sales = 9.99;
 	std::cout << file_size;
