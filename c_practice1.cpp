@@ -1,17 +1,21 @@
-// what's so cool about C++:
-// Object oriented code
-// Popular and fast 
-// All programs starts with int main(), { return X; } 
-
 #include <iostream> //Input/Output stream, preprocessed information, including cout
+#include <cmath>
+using namespace std;
+
 int main() //main function
 {
-	const double pi = 3.14;
-	pi = 0;
-	int file_size;
-	double sales = 9.99;
-	std::cout << file_size;
+	cout << "Enter a radius of the circle ";
+	double radius; 
+	/*
+	calculates the area of a circle
+	*/ 
+	cin >> radius; 
+	double area;
+	area = M_PI*pow(radius, 2);
+	cout << "the area of the circle is " << area << endl;
 	return 0;
+
+
 }
 
 
