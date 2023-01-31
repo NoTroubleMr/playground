@@ -2,29 +2,28 @@
 #include <cmath>
 #include <vector>
 #include <string>
-#include <fstream>
+#include <fstream> 
+#include <cstdlib>
+#include <ctime>
 
 using namespace std;
 
-int main(){
-	cout << "Enter a radius of the circle ";
-	double radius; 
-	/*
-	calculates the area of a circle
+#include <vector>
+#include <cmath>
 
-	*/ 
-	cin >> radius; 
-	char myGrade = 'A';
-	bool isHappy = true;
-	int myAge =29;
-	float favNum =3.141592;
-	double otherfavNum= 1.618033988;
-
-	auto  area =  M_PI*pow(radius, 2);
-	cout << "the AREA of the circle is " << area << endl;
-	cout << "size of int" << sizeof(area) << endl;
-
-	return 0;
+int positive_sum (const std::vector<int> arr){
+  int sum = 0;
+  for (int num : arr){
+    sum += abs(num);
+   }
+  return sum;
 }
+
+int main(){
+	int sum = positive_sum({1,2,3,4,5});
+		int sum2 = positive_sum({1,-2,3,4,5}) << sum << " " << sum2 <<  endl;
+		return  0;
+}
+
 
 
